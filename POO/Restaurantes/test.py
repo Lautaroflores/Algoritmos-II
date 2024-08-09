@@ -22,12 +22,12 @@ entrega.
 from producto import Producto
 from pedido import Pedido
 
-# Crear productos
+# Creo productos
 producto1 = Producto('Pizza', 10, 100)
 producto2 = Producto('Pringles', 5, 50)
 producto3 = Producto('Coca', 2, 200)
 
-# Crear pedido
+# Creo pedidos
 pedido1 = Pedido(1, [producto1, producto2], 'En preparación')
 pedido2 = Pedido(2, [producto3], 'Entregado')
 pedido3 = Pedido(3, [producto1, producto3], 'En preparación')
